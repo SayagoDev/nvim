@@ -72,7 +72,8 @@ return {
 
       v = {
 
-        ["<Leader>r"] = { "<Plug>SnipRun<cr>", desc = "Run Code" }
+        ["<Leader>r"] = { "<Plug>SnipRun<cr>", desc = "Run Code" },
+        ["<C-M>"] = { ":MCvisual<cr>", desc = "MCstart" },
       },
     },
   },
