@@ -67,7 +67,7 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
-        ["<Leader>r"] = { "<Plug>SnipRun<cr>", desc = "Run Code" }
+        ["<C-M>"] = { ":MCstart<cr>", desc = "MCstart" },
       },
 
       v = {

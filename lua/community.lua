@@ -10,4 +10,5 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
 }
